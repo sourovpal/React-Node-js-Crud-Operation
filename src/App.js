@@ -96,6 +96,7 @@ const destroyStudent = async(id)=>{
 }
 
 const editStudent = async(id)=>{
+  setFormErrors([]);
   setEditLoading(true);
   setEditShow(true);
   try{
